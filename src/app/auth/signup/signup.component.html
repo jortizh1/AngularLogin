@@ -1,0 +1,9 @@
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)">
+  <div class="form-group">
+    <label>e-mail</label>
+    <input type="text" name="email" id="email" ngModel>
+    <label>Contraseña</label>
+    <input type="text" name="password" id="password" ngModel>
+    <button>Submmit</button>
+  </div>
+</form>
